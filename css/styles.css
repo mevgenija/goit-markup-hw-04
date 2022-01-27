@@ -322,6 +322,14 @@ header {
   justify-content: center;
 }
 
+.about-socials-link:hover {
+  background-color: var(--accent-color);
+}
+
+.about-socials-link:hover .about-socials-icon {
+  fill: #ffffff;
+}
+
 .about-socials-item + .about-socials-item {
   margin-left: 10px;
 }

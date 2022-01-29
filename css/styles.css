@@ -363,6 +363,14 @@ header {
   fill: #afb1b8;
 }
 
+.clients-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 /* ----- FOOTER ----- */
 
 footer {

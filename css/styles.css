@@ -226,6 +226,17 @@ header {
   display: flex;
 }
 
+.features-item-box {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
 .features-item {
   width: 270px;
 }

@@ -127,6 +127,18 @@ header {
   color: var(--accent-color);
 }
 
+.header-link-icon {
+  fill: var(--text-color);
+}
+
+.header-link-tel:hover .header-link-icon {
+  fill: var(--accent-color);
+}
+
+.header-link-mail:hover .header-link-icon {
+  fill: var(--accent-color);
+}
+
 .header-link-tel,
 .header-link-mail {
   font-weight: 500;

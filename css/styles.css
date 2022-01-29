@@ -292,7 +292,7 @@ header {
   width: 370px;
 }
 
-/* ----- ABOUT ----- */
+/* ------- ABOUT ------- */
 
 .about {
   padding-top: 94px;
@@ -369,6 +369,30 @@ header {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+
+/* ------- CLIENTS ------- */
+
+.clients {
+  padding-bottom: 94px;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----- FOOTER ----- */

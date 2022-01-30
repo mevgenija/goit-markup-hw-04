@@ -131,11 +131,13 @@ header {
   fill: var(--text-color);
 }
 
-.header-link-tel:hover .header-link-icon {
+.header-link-tel:hover .header-link-icon,
+.header-link-tel:focus .header-link-icon {
   fill: var(--accent-color);
 }
 
-.header-link-mail:hover .header-link-icon {
+.header-link-mail:hover .header-link-icon,
+.header-link-mail:focus .header-link-icon {
   fill: var(--accent-color);
 }
 

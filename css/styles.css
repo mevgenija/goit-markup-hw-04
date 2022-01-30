@@ -503,7 +503,8 @@ footer {
   margin-right: 10px;
 }
 
-.footer-socials-link:hover {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   background-color: var(--accent-color);
 }
 

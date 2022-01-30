@@ -404,6 +404,11 @@ footer {
   margin: 0 auto;
 }
 
+.footer-cont {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -456,6 +461,7 @@ footer {
 
 .footer-right-side {
   width: 206px;
+  margin-left: 70px;
 }
 
 .footer-right-text {
@@ -486,6 +492,18 @@ footer {
 
 .footer-right-item {
   margin-right: 10px;
+}
+
+.footer-socials-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-socials-link:hover .footer-socials-icon {
+  fill: #ffffff;
+}
+
+.footer-socials-icon {
+  fill: #ffffff;
 }
 
 /* ----- Портфолио ----- */

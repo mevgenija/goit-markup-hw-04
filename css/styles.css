@@ -100,6 +100,7 @@ header {
 
 .header-list {
   display: flex;
+  margin-left: auto;
 }
 
 .header-item + .header-item {
@@ -139,6 +140,10 @@ header {
 .header-link-mail:hover .header-link-icon,
 .header-link-mail:focus .header-link-icon {
   fill: var(--accent-color);
+}
+
+.header-link-icon {
+  margin-right: 10px;
 }
 
 .header-link-tel,

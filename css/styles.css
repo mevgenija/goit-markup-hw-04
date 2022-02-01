@@ -341,9 +341,15 @@ header {
   color: var(--text-color);
 }
 
+.about-text {
+  display: block;
+  margin-bottom: 15px;
+}
+
 .about-socials-list {
   display: flex;
   justify-content: center;
+  /* margin-bottom: 16px; */
 }
 
 .about-socials-link {

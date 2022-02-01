@@ -349,7 +349,6 @@ header {
 .about-socials-list {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 16px; */
 }
 
 .about-socials-link {
@@ -362,11 +361,13 @@ header {
   justify-content: center;
 }
 
-.about-socials-link:hover {
+.about-socials-link:hover,
+.about-socials-link:focus {
   background-color: var(--accent-color);
 }
 
-.about-socials-link:hover .about-socials-icon {
+.about-socials-link:hover .about-socials-icon,
+.about-socials-link:focus .about-socials-icon {
   fill: #ffffff;
 }
 
@@ -396,6 +397,7 @@ header {
 
 .clients {
   padding-bottom: 94px;
+  padding-top: 72px;
 }
 
 .clients-item + .clients-item {

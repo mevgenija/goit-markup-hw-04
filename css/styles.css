@@ -411,7 +411,7 @@ header {
 .clients-link {
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
+  padding: 16px 31px;
   color: #afb1b8;
   display: flex;
   align-items: center;
